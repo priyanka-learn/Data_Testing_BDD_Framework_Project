@@ -1,0 +1,6 @@
+patient_id,family,given,gender,birth_date,active
+752c3eef-206b-4351-8d4d-389786bc3696,Avils,Rafa,unknown,2004-11-24,false
+c12565df-460b-4638-9a09-8da3ce397625,Valero,Teófila,female,2015-09-29,true
+d9a7b34e-7887-4bd6-9ee5-6dce6a7cd311,Puente,Graciana,male,1974-02-11,true
+6cb73d9e-ba7c-490e-848d-99b2126204c6,Lara,Berta,other,1992-09-04,false
+42802539-367d-4d03-8b5b-9880dbabd106,Ropero,Isidora,female,1939-10-24,false

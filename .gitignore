@@ -9,11 +9,11 @@ application.properties
 # testdata/
 
 # -----------------------------------------------------------------------
-# TEST OUTPUT — may contain sensitive values printed during test runs
+# TEST OUTPUT
 # -----------------------------------------------------------------------
 plain.output
 *.output
-reports/
+reports/allure-results/
 
 # -----------------------------------------------------------------------
 # PYTHON CACHE & COMPILED FILES

@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","17182","Validate full patient record in Databricks matches JSON by patient ID -- @1.1 ","","2026-04-07","passed","2026-04-07","","","",""
+"","33365","Validate patient record count matches between source JSON and Databricks table -- @1.1 ","","2026-04-07","passed","2026-04-07","","","",""
+"","6380","Validate all patients in JSON have a valid FHIR gender value","","2026-04-07","passed","2026-04-07","","","",""
