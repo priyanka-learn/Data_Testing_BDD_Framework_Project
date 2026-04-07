@@ -1,0 +1,65 @@
+# -----------------------------------------------------------------------
+# COPY THIS FILE TO application.properties AND FILL IN YOUR VALUES.
+# application.properties is gitignored and must never be committed.
+# -----------------------------------------------------------------------
+
+[FOLDERS]
+# Base folder for all test data files.
+# The actual file name (e.g. fhir_patients.json) comes from the Examples table in the feature file.
+TESTDATA_PATH=testdata/
+
+# -----------------------------------------------------------------------
+# DATABRICKS CONNECTION
+# Replace the values below with your actual Databricks workspace details.
+# -----------------------------------------------------------------------
+[DATABRICKS]
+# Your Databricks workspace URL (no trailing slash)
+# Azure example:  https://adb-1234567890123456.7.azuredatabricks.net
+# AWS example:    https://dbc-a1b2c3d4-e5f6.cloud.databricks.com
+HOST=https://<your-workspace>.azuredatabricks.net
+
+# Personal Access Token — generate from Databricks UI:
+#   User Settings → Developer → Access Tokens → Generate new token
+TOKEN=<your-databricks-token>
+
+# Unity Catalog / Hive Metastore location of your Databricks tables.
+# Used to build the fully qualified table name: <CATALOG>.<DATABASE>.<table_name>
+# If your workspace uses Hive metastore (no catalog), leave CATALOG_NAME blank.
+CATALOG_NAME=<your-catalog>
+DATABASE_NAME=<your-schema>
+
+# -----------------------------------------------------------------------
+# COMPUTE MODE — choose one:
+#   SERVERLESS  → free tier / no cluster needed
+#   WAREHOUSE   → SQL Warehouse (good for SQL queries)
+#   CLUSTER     → classic interactive cluster (paid)
+# -----------------------------------------------------------------------
+COMPUTE_MODE=SERVERLESS
+
+# Cluster/warehouse type key — must match a key in [CLUSTERS] or [WAREHOUSES] below.
+CLUSTER_TYPE=DEFAULT
+
+# -----------------------------------------------------------------------
+# SQL WAREHOUSE IDs  (used when COMPUTE_MODE=WAREHOUSE)
+# How to find your Warehouse ID:
+#   SQL Warehouses → click your warehouse → Connection Details → HTTP Path
+#   e.g. /sql/1.0/warehouses/abc123def456  →  ID is abc123def456
+# -----------------------------------------------------------------------
+[WAREHOUSES]
+DEFAULT=<your-warehouse-id>
+
+# -----------------------------------------------------------------------
+# CLUSTER IDs  (used when COMPUTE_MODE=CLUSTER, paid tier only)
+# Find cluster IDs: Compute → select cluster → Configuration → Cluster ID
+# -----------------------------------------------------------------------
+[CLUSTERS]
+DEFAULT=<your-cluster-id>
+
+# -----------------------------------------------------------------------
+# TIMEOUTS
+# -----------------------------------------------------------------------
+[TIMEOUTS]
+NOTEBOOK_STATUS_MAX_RETRIES=60
+NOTEBOOK_STATUS_RETRY_WAIT_SECONDS=30
+CLUSTER_START_MAX_RETRIES=40
+CLUSTER_START_RETRY_WAIT_SECONDS=15
