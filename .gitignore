@@ -4,10 +4,9 @@
 application.properties
 
 # -----------------------------------------------------------------------
-# TEST DATA — contains patient PII (names, identifiers, health records)
-# HIPAA / GDPR: do NOT commit real patient data to a public repo
+# TEST DATA — sample FHIR data (not real patient data)
 # -----------------------------------------------------------------------
-testdata/
+# testdata/
 
 # -----------------------------------------------------------------------
 # TEST OUTPUT — may contain sensitive values printed during test runs

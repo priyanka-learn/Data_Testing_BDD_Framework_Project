@@ -1,0 +1,587 @@
+[
+    {
+        "identifier": [
+            {
+                "use": "official",
+                "system": "https://hospital.example.com/patients",
+                "value": "752c3eef-206b-4351-8d4d-389786bc3696"
+            }
+        ],
+        "active": false,
+        "name": [
+            {
+                "use": "official",
+                "family": "Avils",
+                "given": [
+                    "Rafa"
+                ]
+            }
+        ],
+        "telecom": [
+            {
+                "system": "phone",
+                "value": "+34 845 247 656",
+                "use": "mobile"
+            }
+        ],
+        "gender": "unknown",
+        "birthDate": "2004-11-24",
+        "deceasedBoolean": false,
+        "deceasedDateTime": null,
+        "address": [
+            {
+                "use": "home",
+                "line": [
+                    "Urbanizaci\u00f3n Anastasio Tena 8 Apt. 58 "
+                ],
+                "city": "Huesca",
+                "postalCode": "23227",
+                "country": "Togo"
+            }
+        ],
+        "maritalStatus": {
+            "text": "Divorced"
+        },
+        "multipleBirthBoolean": false,
+        "multipleBirthInteger": 4,
+        "photo": [
+            {
+                "contentType": "image/jpeg",
+                "url": "https://example.com/photos/33278248-d3f3-43a9-b61b-cf117c4164b4.jpg"
+            }
+        ],
+        "contact": [
+            {
+                "relationship": [
+                    {
+                        "text": "Sibling"
+                    }
+                ],
+                "name": {
+                    "family": "T\u00e9llez",
+                    "given": [
+                        "Cristian"
+                    ]
+                },
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "+34 800 57 56 13",
+                        "use": "home"
+                    }
+                ],
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "Camino de Concepci\u00f3n Mendez 282 Puerta 3 "
+                        ],
+                        "city": "Huelva",
+                        "postalCode": "35910",
+                        "country": "Malta"
+                    }
+                ],
+                "gender": "male",
+                "organization": {
+                    "reference": "Organization/b5dd1a41-fca8-4a5e-b9a3-39c06dc455c9"
+                },
+                "period": {
+                    "start": "2011-01-30T16:48:36.459611"
+                }
+            }
+        ],
+        "communication": [
+            {
+                "language": {
+                    "text": "English"
+                },
+                "preferred": true
+            }
+        ],
+        "generalPractitioner": [
+            {
+                "reference": "Practitioner/2a6a2e08-1288-4aa9-83c8-3a814211c303"
+            }
+        ],
+        "managingOrganization": {
+            "reference": "Organization/b15d36c1-3740-497f-89b1-ab31b555eb3d"
+        },
+        "link": [
+            {
+                "other": {
+                    "reference": "Patient/79859151-8c36-4f83-b1cf-c3fe864862af"
+                },
+                "type": "refer"
+            }
+        ],
+        "resourceType": "Patient"
+    },
+    {
+        "identifier": [
+            {
+                "use": "official",
+                "system": "https://hospital.example.com/patients",
+                "value": "c12565df-460b-4638-9a09-8da3ce397625"
+            }
+        ],
+        "active": true,
+        "name": [
+            {
+                "use": "official",
+                "family": "Valero",
+                "given": [
+                    "Te\u00f3fila"
+                ]
+            }
+        ],
+        "telecom": [
+            {
+                "system": "phone",
+                "value": "+34 975 13 88 60",
+                "use": "mobile"
+            }
+        ],
+        "gender": "female",
+        "birthDate": "2015-09-29",
+        "deceasedBoolean": true,
+        "deceasedDateTime": "2001-08-09T03:45:57.814115",
+        "address": [
+            {
+                "use": "home",
+                "line": [
+                    "Alameda Hector Osorio 96 Apt. 12 "
+                ],
+                "city": "Ja\u00e9n",
+                "postalCode": "33784",
+                "country": "Nicaragua"
+            }
+        ],
+        "maritalStatus": {
+            "text": "Married"
+        },
+        "multipleBirthBoolean": false,
+        "multipleBirthInteger": 2,
+        "photo": [
+            {
+                "contentType": "image/jpeg",
+                "url": "https://example.com/photos/ba1f31be-0ce1-49b6-b534-26b84443c132.jpg"
+            }
+        ],
+        "contact": [
+            {
+                "relationship": [
+                    {
+                        "text": "Partner"
+                    }
+                ],
+                "name": {
+                    "family": "Osorio",
+                    "given": [
+                        "Moreno"
+                    ]
+                },
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "+34947 368 297",
+                        "use": "home"
+                    }
+                ],
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "Camino de Abraham Manuel 58"
+                        ],
+                        "city": "Huelva",
+                        "postalCode": "21614",
+                        "country": "Antigua y Barbuda"
+                    }
+                ],
+                "gender": "unknown",
+                "organization": {
+                    "reference": "Organization/5fed1946-ec67-47eb-a1e3-2f3ee23765ec"
+                },
+                "period": {
+                    "start": "2014-12-16T10:36:38.325269"
+                }
+            }
+        ],
+        "communication": [
+            {
+                "language": {
+                    "text": "English"
+                },
+                "preferred": false
+            }
+        ],
+        "generalPractitioner": [
+            {
+                "reference": "Practitioner/04d9354a-e686-4f91-84b2-5290dfb0e33d"
+            }
+        ],
+        "managingOrganization": {
+            "reference": "Organization/c0a0a72d-47be-481f-890c-feb456ac8a99"
+        },
+        "link": [
+            {
+                "other": {
+                    "reference": "Patient/a122ce22-5320-4fb3-b1c4-a4803731c9ae"
+                },
+                "type": "replaced-by"
+            }
+        ],
+        "resourceType": "Patient"
+    },
+    {
+        "identifier": [
+            {
+                "use": "official",
+                "system": "https://hospital.example.com/patients",
+                "value": "d9a7b34e-7887-4bd6-9ee5-6dce6a7cd311"
+            }
+        ],
+        "active": true,
+        "name": [
+            {
+                "use": "official",
+                "family": "Puente",
+                "given": [
+                    "Graciana"
+                ]
+            }
+        ],
+        "telecom": [
+            {
+                "system": "phone",
+                "value": "+34 943 40 06 32",
+                "use": "mobile"
+            }
+        ],
+        "gender": "male",
+        "birthDate": "1974-02-11",
+        "deceasedBoolean": true,
+        "deceasedDateTime": "2008-08-13T10:33:29.907596",
+        "address": [
+            {
+                "use": "home",
+                "line": [
+                    "Ronda de Teo Burgos 6"
+                ],
+                "city": "Navarra",
+                "postalCode": "05287",
+                "country": "Rwanda"
+            }
+        ],
+        "maritalStatus": {
+            "text": "Married"
+        },
+        "multipleBirthBoolean": false,
+        "multipleBirthInteger": 1,
+        "photo": [
+            {
+                "contentType": "image/jpeg",
+                "url": "https://example.com/photos/cc620803-cf8d-4333-9249-0b9b8d6216b7.jpg"
+            }
+        ],
+        "contact": [
+            {
+                "relationship": [
+                    {
+                        "text": "Sibling"
+                    }
+                ],
+                "name": {
+                    "family": "Lasa",
+                    "given": [
+                        "Albano"
+                    ]
+                },
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "+34987 244 239",
+                        "use": "home"
+                    }
+                ],
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "Via de Lucila Aroca 71 Puerta 1 "
+                        ],
+                        "city": "Huesca",
+                        "postalCode": "19576",
+                        "country": "Mali"
+                    }
+                ],
+                "gender": "unknown",
+                "organization": {
+                    "reference": "Organization/b5cebc0a-9740-4a13-8ecd-4e13d2300b47"
+                },
+                "period": {
+                    "start": "2003-10-26T14:18:46.677969"
+                }
+            }
+        ],
+        "communication": [
+            {
+                "language": {
+                    "text": "French"
+                },
+                "preferred": true
+            }
+        ],
+        "generalPractitioner": [
+            {
+                "reference": "Practitioner/647efea4-15ae-4708-bf96-666e395f0808"
+            }
+        ],
+        "managingOrganization": {
+            "reference": "Organization/5b7f2d65-2402-49ef-a835-0b3602f3552f"
+        },
+        "link": [
+            {
+                "other": {
+                    "reference": "Patient/69d804bb-83dd-4183-9141-b2c73cc07361"
+                },
+                "type": "replaced-by"
+            }
+        ],
+        "resourceType": "Patient"
+    },
+    {
+        "identifier": [
+            {
+                "use": "official",
+                "system": "https://hospital.example.com/patients",
+                "value": "6cb73d9e-ba7c-490e-848d-99b2126204c6"
+            }
+        ],
+        "active": false,
+        "name": [
+            {
+                "use": "official",
+                "family": "Lara",
+                "given": [
+                    "Berta"
+                ]
+            }
+        ],
+        "telecom": [
+            {
+                "system": "phone",
+                "value": "+34 729 01 23 09",
+                "use": "mobile"
+            }
+        ],
+        "gender": "other",
+        "birthDate": "1992-09-04",
+        "deceasedBoolean": true,
+        "deceasedDateTime": "2022-05-11T00:22:27.816643",
+        "address": [
+            {
+                "use": "home",
+                "line": [
+                    "Via de Jessica Ferreras 5"
+                ],
+                "city": "Ourense",
+                "postalCode": "26823",
+                "country": "Ghana"
+            }
+        ],
+        "maritalStatus": {
+            "text": "Widowed"
+        },
+        "multipleBirthBoolean": true,
+        "multipleBirthInteger": 2,
+        "photo": [
+            {
+                "contentType": "image/jpeg",
+                "url": "https://example.com/photos/286f73b6-68d4-4e1a-8295-e595add0c02c.jpg"
+            }
+        ],
+        "contact": [
+            {
+                "relationship": [
+                    {
+                        "text": "Friend"
+                    }
+                ],
+                "name": {
+                    "family": "Vargas",
+                    "given": [
+                        "Sabas"
+                    ]
+                },
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "+34842 11 47 78",
+                        "use": "home"
+                    }
+                ],
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "Camino Jordana Trujillo 2 Piso 3 "
+                        ],
+                        "city": "Granada",
+                        "postalCode": "34480",
+                        "country": "Serbia"
+                    }
+                ],
+                "gender": "other",
+                "organization": {
+                    "reference": "Organization/2d74f6e1-52b6-47af-8a44-f0838be3099d"
+                },
+                "period": {
+                    "start": "2004-10-08T17:42:01.136476"
+                }
+            }
+        ],
+        "communication": [
+            {
+                "language": {
+                    "text": "French"
+                },
+                "preferred": false
+            }
+        ],
+        "generalPractitioner": [
+            {
+                "reference": "Practitioner/a3cbc517-c5f2-48e3-a5b7-8c630f024e46"
+            }
+        ],
+        "managingOrganization": {
+            "reference": "Organization/320e72d7-f1c6-4890-95bd-9569b7c61711"
+        },
+        "link": [
+            {
+                "other": {
+                    "reference": "Patient/b21ca341-8f02-428d-b70c-613f503cd3b4"
+                },
+                "type": "replaces"
+            }
+        ],
+        "resourceType": "Patient"
+    },
+    {
+        "identifier": [
+            {
+                "use": "official",
+                "system": "https://hospital.example.com/patients",
+                "value": "42802539-367d-4d03-8b5b-9880dbabd106"
+            }
+        ],
+        "active": false,
+        "name": [
+            {
+                "use": "official",
+                "family": "Ropero",
+                "given": [
+                    "Isidora"
+                ]
+            }
+        ],
+        "telecom": [
+            {
+                "system": "phone",
+                "value": "+34 707 971 703",
+                "use": "mobile"
+            }
+        ],
+        "gender": "female",
+        "birthDate": "1939-10-24",
+        "deceasedBoolean": true,
+        "deceasedDateTime": "2006-11-14T13:43:17.818532",
+        "address": [
+            {
+                "use": "home",
+                "line": [
+                    "Vial de Clemente Otero 84"
+                ],
+                "city": "Salamanca",
+                "postalCode": "01592",
+                "country": "Montenegro"
+            }
+        ],
+        "maritalStatus": {
+            "text": "Married"
+        },
+        "multipleBirthBoolean": false,
+        "multipleBirthInteger": null,
+        "photo": [
+            {
+                "contentType": "image/jpeg",
+                "url": "https://example.com/photos/b853f4a8-903d-45fb-b67c-24da4c69bdf8.jpg"
+            }
+        ],
+        "contact": [
+            {
+                "relationship": [
+                    {
+                        "text": "Parent"
+                    }
+                ],
+                "name": {
+                    "family": "Gim\u00e9nez",
+                    "given": [
+                        "Felipa"
+                    ]
+                },
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "+34819 21 38 52",
+                        "use": "home"
+                    }
+                ],
+                "address": [
+                    {
+                        "use": "home",
+                        "line": [
+                            "Plaza Ofelia Quesada 5"
+                        ],
+                        "city": "Castell\u00f3n",
+                        "postalCode": "22367",
+                        "country": "Venezuela"
+                    }
+                ],
+                "gender": "female",
+                "organization": {
+                    "reference": "Organization/40b0a603-974d-49d3-8534-7a6ad475e336"
+                },
+                "period": {
+                    "start": "2012-11-20T03:58:49.396728"
+                }
+            }
+        ],
+        "communication": [
+            {
+                "language": {
+                    "text": "English"
+                },
+                "preferred": false
+            }
+        ],
+        "generalPractitioner": [
+            {
+                "reference": "Practitioner/259195c8-7176-4b31-b8d6-dffd215fe095"
+            }
+        ],
+        "managingOrganization": {
+            "reference": "Organization/4c698410-6d91-4e3a-896e-438acda01162"
+        },
+        "link": [
+            {
+                "other": {
+                    "reference": "Patient/96519297-398b-4241-af9e-15982c547b99"
+                },
+                "type": "replaces"
+            }
+        ],
+        "resourceType": "Patient"
+    }
+]

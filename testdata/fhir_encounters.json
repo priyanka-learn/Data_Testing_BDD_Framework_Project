@@ -1,0 +1,142 @@
+[
+    {
+        "identifier": [
+            {
+                "use": "official",
+                "system": "https://hospital.example.com/encounters",
+                "value": "0eaba2a0-8d2c-429e-84ce-35d1d9f12c21"
+            }
+        ],
+        "status": "planned",
+        "class": {
+            "text": "inpatient"
+        },
+        "subject": {
+            "reference": "Patient/b3936553-1a16-48c5-8684-792db5eb55c3"
+        },
+        "participant": [
+            {
+                "individual": {
+                    "reference": "Practitioner/15e08019-1b9c-4642-ba40-0bfd1c2ca78c"
+                }
+            }
+        ],
+        "period": {
+            "start": "2012-01-15T19:06:40.607378",
+            "end": "2013-06-14T01:42:23.989143"
+        },
+        "resourceType": "Encounter"
+    },
+    {
+        "identifier": [
+            {
+                "use": "official",
+                "system": "https://hospital.example.com/encounters",
+                "value": "df5eb0bd-68dd-453c-aed8-553a9b1be5df"
+            }
+        ],
+        "status": "finished",
+        "class": {
+            "text": "ambulatory"
+        },
+        "subject": {
+            "reference": "Patient/ab4dd014-4c95-4989-8b76-f42e156859e0"
+        },
+        "participant": [
+            {
+                "individual": {
+                    "reference": "Practitioner/ca14b058-6510-4c40-92ad-6b32196d6cf6"
+                }
+            }
+        ],
+        "period": {
+            "start": "2005-10-11T19:21:39.923397",
+            "end": "2010-03-12T05:33:03.711488"
+        },
+        "resourceType": "Encounter"
+    },
+    {
+        "identifier": [
+            {
+                "use": "official",
+                "system": "https://hospital.example.com/encounters",
+                "value": "8b7450d5-b31e-405a-b5c3-d43fc07a7a52"
+            }
+        ],
+        "status": "finished",
+        "class": {
+            "text": "outpatient"
+        },
+        "subject": {
+            "reference": "Patient/ba7699db-2e0d-4be1-828c-a3d9f1eb4b30"
+        },
+        "participant": [
+            {
+                "individual": {
+                    "reference": "Practitioner/b9e9a47f-8bae-42ac-801e-fc9daeb3232b"
+                }
+            }
+        ],
+        "period": {
+            "start": "2024-12-23T10:40:20.932522",
+            "end": "2023-07-31T19:13:47.049888"
+        },
+        "resourceType": "Encounter"
+    },
+    {
+        "identifier": [
+            {
+                "use": "official",
+                "system": "https://hospital.example.com/encounters",
+                "value": "fd1f037b-1486-407c-a00e-6774525d70f1"
+            }
+        ],
+        "status": "cancelled",
+        "class": {
+            "text": "inpatient"
+        },
+        "subject": {
+            "reference": "Patient/e751b83e-709b-46fc-9d62-f6dbe89da351"
+        },
+        "participant": [
+            {
+                "individual": {
+                    "reference": "Practitioner/49e5ee64-8c97-4ca4-ab76-94b481fe9391"
+                }
+            }
+        ],
+        "period": {
+            "start": "2002-05-21T12:18:17.053845",
+            "end": "2013-08-06T06:45:33.717074"
+        },
+        "resourceType": "Encounter"
+    },
+    {
+        "identifier": [
+            {
+                "use": "official",
+                "system": "https://hospital.example.com/encounters",
+                "value": "4e53a5ac-a9c9-4bfa-9a0d-ba96237c5bf0"
+            }
+        ],
+        "status": "in-progress",
+        "class": {
+            "text": "outpatient"
+        },
+        "subject": {
+            "reference": "Patient/6198baa4-211b-44ee-ab9c-99d2fc33e0c0"
+        },
+        "participant": [
+            {
+                "individual": {
+                    "reference": "Practitioner/548708f5-e4c3-437a-90a3-f26e933ae81f"
+                }
+            }
+        ],
+        "period": {
+            "start": "2018-03-22T21:25:14.330010",
+            "end": "2017-10-31T18:09:08.584710"
+        },
+        "resourceType": "Encounter"
+    }
+]
