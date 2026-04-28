@@ -1,5 +1,7 @@
 # BDD Practice Project — FHIR Patient Data Validation
 
+> **Disclaimer:** This is a dummy/practice project created for learning and demonstration purposes. It validates FHIR (Fast Healthcare Interoperability Resources) patient JSON data against Databricks table data. This project is not intended for production use.
+
 A behaviour-driven test framework that validates FHIR R4 patient data loaded into **Databricks** against local JSON source files.  
 Built with **Python + Behave** and designed to run against a Databricks SQL Warehouse, classic Cluster, or Serverless compute.
 
